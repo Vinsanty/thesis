@@ -1,0 +1,43 @@
+.mainDiv{
+    display: grid;
+    grid-template-rows: 1fr 70px;
+    width: 400px;
+    height: 400px;
+    border: 1px solid red;
+    border-radius: 10px;
+    row-gap: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.mainDiv:hover{
+    box-shadow: 5px 5px 50px black;
+}
+
+.addBtn{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    color:red;
+    border:1px solid red;
+    border-radius: 20px;
+    position: relative;
+    left:37%;
+    font-size:12pt;
+    transition: all 0.5s ease-in-out;
+}
+
+.addBtn:hover{
+    background-color: red;
+    color:white;
+}
+
+a{
+    text-decoration: none;
+    font-size:12pt;
+    color:black;
+}
+
+.deviceName{
+    margin-top: 5px;
+    font-weight: bold;
+}

@@ -1,0 +1,74 @@
+.mainAdminBox{
+    width: 75%;
+    left:12.5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    justify-content: center;
+    align-items: start;
+}
+
+.addTypeBox,.addBrandBox,.addDeviceBox{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 20px;
+}
+
+
+.addTypeBox, .addBrandBox, .addDeviceBox{
+    font-size: 14pt;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+.addTypeBox input, .addBrandBox input, .addDeviceBox input[type = 'text']{
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid red;
+    outline: none;
+    border-radius: 20px;
+}
+
+.addTypeBox button, .addBrandBox button, .addDeviceBox button {
+    width: 250px;
+    height: 30px;
+    font-size: 14pt;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 50px;
+    color:red;
+    transition: all 0.5s ease-in-out;
+}
+
+.addTypeBox button:hover, .addBrandBox button:hover, .addDeviceBox button:hover{
+    color:white;
+    background-color:red;
+}
+
+.infoDiv{
+    position: relative;
+    left:50px;
+    display: grid;
+    width: 150px;
+    column-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+.infoDiv button{
+    position: relative;
+    left:130px
+}
+
+.allOrders{
+    width: 500px;
+    height: fit-content;
+    display: grid;
+    justify-content: start;
+    align-items: start;
+    row-gap: 10px;
+}

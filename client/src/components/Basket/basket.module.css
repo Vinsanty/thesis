@@ -1,0 +1,25 @@
+.mainBasket{
+    position: relative;
+    left: 5%;
+    display:grid;
+    row-gap: 50px;
+}
+
+.order{
+    width: 250px;
+    height: 40px;
+    font-size: 14pt;
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 50px;
+    position: relative;
+    left:500px;
+    transition: all 0.5s ease;
+}
+
+
+.order:hover{
+    background-color: red;
+    color: white;
+}

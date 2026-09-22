@@ -1,0 +1,59 @@
+.mainAuthBox{
+    width: 400px;
+    height: 300px;
+    border:1px solid red;
+    color:red;
+    font-size: 14pt;
+}
+
+.authBox{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 20px;
+}
+
+.authTitle{
+    font-size: 18pt;
+}
+
+.regLink{
+    color:red;
+    text-decoration:underline;
+    transition: color 0.5s ease;
+}
+
+.regLink:hover{
+    color: black;
+}
+
+.email,.pass{
+    width: 200px;
+    height: 30px;
+    position: relative;
+    left:100px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 5px;
+    border: 1px solid red;
+    outline: none;
+}
+
+.authBtn{
+    width: 200px;
+    height:40px;
+    position: relative;
+    left:100px;
+    background-color: white;
+    border:1px solid red;
+    border-radius: 50px;
+    color: red;
+    font-size: 14pt;
+    transition: all 0.5s ease-in-out;
+}
+
+.authBtn:hover{
+    background-color: red;
+    color: white;
+}
+

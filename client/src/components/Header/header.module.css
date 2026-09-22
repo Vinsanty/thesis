@@ -1,0 +1,77 @@
+.mainMenuBar{
+    width: 100%;
+    margin: 0 250px 0 250px;
+    display: grid;
+    grid-template-columns: 150px 500px 50px 50px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24pt;
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s ease-in-out;
+}
+
+.logo:hover{
+    color:red
+}
+
+
+.searchBar{
+    height: 30px;
+    border-radius: 10px;
+    border:1px solid rgb(125, 123, 123);
+    outline: none;
+    padding-left: 10px;
+    font-size: 12pt;
+}
+
+
+.fav, .basket,.auth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:black;
+    font-size: 10pt;
+}
+
+.fav, .fav svg path, .basket, .basket svg path,
+.auth, .auth svg path{
+    transition: all 0.5s ease;
+}
+
+.fav:hover svg path, .auth:hover svg path {
+    fill:red
+}
+
+.fav:hover, .basket:hover, .auth:hover{
+    color:red;
+}
+
+.basket:hover svg path{
+    stroke: red;
+}
+
+.additionalNav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 250px 0 250px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item{
+    text-decoration: none;
+    color:black;
+    font-size: 12pt;
+    transition: all 0.2s ease;
+}
+
+.item:hover{
+    color:red;
+}

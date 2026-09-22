@@ -1,0 +1,67 @@
+.mainBasketCard{
+    width: 85%;
+    height:400px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+    row-gap: 50px;
+    border : 1px solid red;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+img{
+    height: 290px;
+    width: auto;
+    position: relative;
+    left:10px;
+    top:5px;
+}
+
+.mainBasketCard:hover{
+    box-shadow:5px 5px 50px black;;
+}
+
+.infoDiv{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 440px;
+}
+
+.description{
+    text-align: justify;
+}
+
+.name{
+    position: relative;
+    bottom: 50px;
+}
+.price{
+    text-align: start;
+    font-weight: bold;
+}
+
+.footer{
+    width: 440px;
+    position: relative;
+    top:50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.delete{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+    border-radius: 20px;
+    transition: 0.5s all ease-in-out;
+}
+
+.delete:hover{
+    background-color: red;
+    color:white
+}

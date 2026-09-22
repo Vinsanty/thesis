@@ -1,0 +1,26 @@
+.menuBurgBtn{
+    width: 35px;
+    height: 35px;
+    display: grid;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.menuBurgBtn span{
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: black;
+}
+
+.menuBurgBtn:hover{
+    border-color: red;
+}
+
+.menuBurgBtnActive{
+    border:none
+}
+

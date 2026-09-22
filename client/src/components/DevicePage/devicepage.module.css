@@ -1,0 +1,51 @@
+.devicePage{
+    width: 80%;
+    height: 100vh;
+}
+
+.price{
+    font-size: 30pt;
+    font-weight: bolder;
+}
+
+.mainDeviceBox{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    column-gap: 150px;
+    font-size: 18pt;
+}
+
+b{
+    position: relative;
+    bottom: 70px;
+}
+
+.img{
+    width: 500px;
+    height: 500px;
+}
+
+.infoBox{
+    border:1px solid red;
+    border-radius: 10px;
+    padding: 10px;
+}
+.addBtn{
+    width: 160px;
+    height: 40px;
+    background-color: white;
+    color:red;
+    border:1px solid red;
+    border-radius: 20px;
+    position: relative;
+    font-size:12pt;
+    transition: all 0.5s ease-in-out;
+}
+
+.addBtn:hover{
+    background-color: red;
+    color:white;
+}
